@@ -1,0 +1,225 @@
+
+//index
+body{
+    background-color:#1693a5;
+}
+
+
+h1{
+    font-style: italic;
+    color:  #f0f0d8;
+    text-align: center;
+    font-size:4em;
+    margin-top: 80px;
+
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    margin-top : 150px;
+}
+
+
+.link{
+    background-color:#d8d8c0;
+    border-radius: 15px;
+    padding: 10px;
+
+
+}
+
+a{
+    font-style: italic;
+    color: #1693a5;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+
+.a-index{
+    font-style: italic;
+    color: #1693a5;
+    text-decoration: none;
+    font-size: 2em;
+
+}
+
+//login
+
+.body-login{
+    height: 80vh;
+}
+
+.container-login{
+
+       
+    background-color: #d8d8c0 ;
+    width: 45vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 15px;
+
+            
+}
+.container-login-saldo{
+
+       
+    background-color: #d8d8c0 ;
+    width: 45vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 15px;
+
+            
+}
+.container-login-nova{
+
+       
+    background-color: #d8d8c0 ;
+    width: 45vw;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 15px;
+
+            
+}
+form{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+  
+
+}
+.label{
+
+    margin-bottom: 10%;
+    margin-left: 15%;
+    font-style: italic;
+    color: #1693a5 ; 
+    
+  
+}
+.input{
+    font-style: italic;
+    color: #1693a5;
+    background-color: #f0f0d8;
+    padding: 10px;
+    border-radius: 15px;
+    width: 60%;
+    height: 30px;
+    border: none;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom:5%;
+
+}
+
+.submit-nova{
+    
+    background-color:  #d8d8c0;
+    color: #1693a5;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.submit{
+    
+    background-color: #1693a5;
+    color: #d8d8c0;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.a.login{
+    font-style: italic;
+    color: #1693a5;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 25%;
+    text-align: center;
+
+}
+
+.submit:hover{
+    background-color:cadetblue;
+    transform: scale(1.1);
+}
+.submit-nova:hover{
+    background-color:cadetblue;
+    transform: scale(1.1);
+}
+
+//saques
+
+
+.body-saque{
+    background-color: #1693a5;
+}
+.home-grid {
+    margin-top: 10%;
+   display: grid;
+   grid-gap: 3rem;
+   grid-template-areas:
+       "header header header"
+       "aside main main"
+       "footer footer footer";
+       grid-template-columns: auto auto auto;
+       grid-template-rows: auto auto auto;
+   }
+   .g2 {
+       grid-area: main;
+   }
+
+   .g1,.g2,.g3,.g4,.g5,.g6{
+       background-color: #d8d8c0;
+       padding: 15px;
+       font-size: 2em;
+       border-radius: 15px;
+   }
+
+   .g1:hover{
+       
+       background-color:cadetblue;
+       transform: scale(1.1);
+   }
+   .g2:hover{
+       
+       background-color:cadetblue;
+       transform: scale(1.1);
+   }
+   .g3:hover{
+       
+       background-color:cadetblue;
+       transform: scale(1.1);
+   }
+   .g4:hover{
+       
+       background-color:cadetblue;
+       transform: scale(1.1);
+   }
+   .g5:hover{
+       
+       background-color:cadetblue;
+       transform: scale(1.1);
+   }
+   .g6:hover{
+       
+       background-color:cadetblue;
+       transform: scale(1.1);
+       
+   }

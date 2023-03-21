@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Login</title>
 </head>
-<body>
+<body style=" background-color:#1693a5;">
     <header>
         <h1>Seja Bem Vindo!</h1>
     </header>
 
     <div>
-        <div>
+        <div class="container-login">
             <form action="../src/processa-login.php" id="formulario" method="POST">
-                <label for="">Digite seu usuário</label><br>
-                <input type="text" name="usuario1"><br>
-                <label for="">digite sua senha</label><br>
-                <input type="password" name="senha1"><br>
-                <input type="submit" id="submit">
+                <label for="" class="label">Digite seu usuário</label><br>
+                <input type="text" name="usuario1" class="input"><br>
+                <label for="" class="label">Digite sua senha</label><br>
+                <input type="password" name="senha1" class="input"><br>
+                <input type="submit" placeholder="Entrar" class="submit"><br>
+                <a href="../index.html" class="a.login">Voltar a tela Inicial</a>
             </form> 
-            <div>
-                <a href="../index.html">Voltar a tela Inicial</a>
-            </div>
+            
         </div>
+
     </div>
 
 </body>

@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+   
+
     <title>Saque</title>
 </head>
-<body>
+<body style=" background-color:#1693a5">
     <header>
         <h1>Saque em Conta Corrente</h1>
     </header>
 
-    <div>
+    <div class="container-login" >
         <form action="../src/processa-saque-corrente.php" method="post">
 
-            <label for="">Digite o Valor do Saque </label><br>
-            <input type="text" name="valor_c"><br>
-            <label for="">Digite seu CPF</label><br>
-            <input type="text" name="cpf_conta_c"><br>
-            <input type="submit">
+            <label for="" class="label">Digite o Valor do Saque </label><br>
+            <input type="text" name="valor_c" class="input"><br>
+            <label for="" class="label">Digite seu CPF</label><br>
+            <input type="text" name="cpf_conta_c" class="input"><br>
+            <input type="submit" class="submit"><br><br>
+            <a href="home.html">Voltar a Tela Inicial</a>
         </form>
 
         <div>
-            <a href="home.html">Voltar a Tela Inicial</a>
+           
         </div>
     </div>
     
