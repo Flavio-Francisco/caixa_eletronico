@@ -1,6 +1,6 @@
 <?php 
 require('conexao.php');
-session_start();
+
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
 
@@ -46,7 +46,7 @@ while ($dados = $reg->fetch_assoc()) {
        echo"usuario ou senha invalidos";
     }
 
-    session_destroy();
+   
 }
 
 ?>

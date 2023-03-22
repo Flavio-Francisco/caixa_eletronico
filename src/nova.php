@@ -11,6 +11,15 @@ $cpf = $_POST['cpf'];
 $contaP =0;
 $contaC =0;
 
+if ($senha == null || $usuario == null || $nome == null || $cpf == null )  {
+      echo" <script>
+
+      alert('Todos os Campos tem que ser Preenchidos!');
+            window.location.href ='../view/nova-conta.html';
+      
+      </script>";
+}
+
 if ($senha != $senhac && $senha > 0)  {
       echo" <script>
 
@@ -34,7 +43,7 @@ if (mysqli_query($conn, $sql)) {
       echo" <script>
 
       alert('Algo deu errado');
-            window.location.href ='../view/nova-conta.html';
+            window.location.href ='./index.html';
       
       </script>";
 }

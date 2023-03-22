@@ -5,9 +5,18 @@ $valordc = $_POST['valordc'];
 $cpf_conta = $_POST['cpf_conta'];
 
 
+
 $query_conta = "SELECT * from cliente WHERE cpf =('$cpf_conta')";
 $registro_conta = $conn ->query($query_conta);
 $dados;
+
+if ($registro_conta->num_rows==0) {
+   echo"<script>
+   alert('CPF invalido!');
+   window.location.href ='../view/deposito-conta.html';
+
+   </script>";
+}
 while ($dados = $registro_conta->fetch_assoc()) {
 
      $saldo = $valordc + $dados['conta_corrente'];

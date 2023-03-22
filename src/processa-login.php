@@ -20,8 +20,6 @@ if ($resul->num_rows==0) {
 $dados;
 while ($dados = $resul->fetch_assoc()) {
 
-
-
   // validando o login
   if ($dados['usuario'] == $usuario1 && $dados['senha'] == $senha1) {
     header('Location: ../view/home.html');

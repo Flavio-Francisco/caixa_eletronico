@@ -44,6 +44,7 @@ a{
 
 }
 
+
 //login
 
 .body-login{
@@ -76,12 +77,46 @@ a{
 
             
 }
+.container-saldo{
+
+       
+    background-color: #d8d8c0 ;
+    width: 40vw;
+    height: 55vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+.container-saldo p{
+    text-align: center;
+    margin-left: 15%;
+    background-color:  #f0f0d8;
+    color: #1693a5;
+    text-align: center;
+    width: 26vw;
+   
+    border-radius: 15px;
+    font-size:25px;
+   
+    padding:10px;
+}
+.container-saldo div h5{
+    font-size:25px;
+    color: #1693a5;
+    padding:10px;
+}
+.container-saldo div h4{
+    font-size:25px;
+    color: #1693a5;
+    padding:10px;
+}
 .container-login-nova{
 
        
     background-color: #d8d8c0 ;
     width: 45vw;
-    height: 95vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     margin-left: 25%;
@@ -121,16 +156,17 @@ form{
 }
 
 .submit-nova{
-    
+    font-style: italic;
+    font-size:1em;
     background-color:  #d8d8c0;
     color: #1693a5;
     padding: 15px;
     border: none;
     border-radius: 15px;
-    width: 60%;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-bottom: 2%;
+    width: 40%;
+    
+    margin-left: 22%;
+    
 }
 .submit{
     
@@ -170,26 +206,28 @@ form{
 .body-saque{
     background-color: #1693a5;
 }
-.home-grid {
-    margin-top: 10%;
-   display: grid;
-   grid-gap: 3rem;
-   grid-template-areas:
-       "header header header"
-       "aside main main"
-       "footer footer footer";
-       grid-template-columns: auto auto auto;
-       grid-template-rows: auto auto auto;
-   }
-   .g2 {
-       grid-area: main;
-   }
 
-   .g1,.g2,.g3,.g4,.g5,.g6{
-       background-color: #d8d8c0;
-       padding: 15px;
-       font-size: 2em;
-       border-radius: 15px;
+.g1{
+    width: 20%;
+    height: 15%;
+    background-color: aliceblue;
+    margin: 2%;
+    padding-bottom: 2px;
+    padding-top: 15px;
+    border-radius: 15px;
+    font-size: 17pt;
+    text-align: center;
+    float: left;
+    box-shadow: 5px 5px 0 #3333331a;
+   }
+ 
+   .home-grid{
+    display: inline;
+    float: left;
+    margin-top: 7%;
+    margin-left: 15%;
+    width: 80vw;
+    height: 50vh;
    }
 
    .g1:hover{
