@@ -11,7 +11,7 @@ $cpf = $_POST['cpf'];
 $contaP =0;
 $contaC =0;
 
-if ($senha == null || $usuario == null || $nome == null || $cpf == null )  {
+if ($senha == "" || $usuario == ""|| $nome == "" || $cpf == "" )  {
       echo" <script>
 
       alert('Todos os Campos tem que ser Preenchidos!');

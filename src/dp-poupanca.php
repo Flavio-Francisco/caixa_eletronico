@@ -18,7 +18,7 @@ while ($dados = $registro_poupanca->fetch_assoc()) {
 
         echo"<script>
      alert('Deposito realisado com sucesso!');
-     window.location.href ='../view/deposito-poupanca.html';
+     window.location.href ='../view/home.html';
 
      </script>";
         

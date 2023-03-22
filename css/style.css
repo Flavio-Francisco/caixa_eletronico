@@ -77,9 +77,19 @@ a{
 
             
 }
-.container-saldo{
 
-       
+.container-saldo-p{
+    background-color: #d8d8c0 ;
+    width: 40vw;
+    height: 55vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 15px;
+
+}
+.container-saldo{
+  
     background-color: #d8d8c0 ;
     width: 40vw;
     height: 55vh;
@@ -88,35 +98,39 @@ a{
     margin-left: 25%;
     border-radius: 15px;
 }
-.container-saldo p{
+.container-saldo-p p{
     text-align: center;
     margin-left: 15%;
     background-color:  #f0f0d8;
     color: #1693a5;
     text-align: center;
     width: 26vw;
-   
     border-radius: 15px;
     font-size:25px;
    
     padding:10px;
 }
-.container-saldo div h5{
-    font-size:25px;
-    color: #1693a5;
-    padding:10px;
+.a-saldo{
+    text-align: center;
+    margin-left:15px;
 }
-.container-saldo div h4{
+.container-saldo-p div h5{
     font-size:25px;
     color: #1693a5;
-    padding:10px;
+    padding:5px;
+    
+}
+.container-saldo-p div h4{
+    font-size:25px;
+    color: #1693a5;
+    padding:5px;
 }
 .container-login-nova{
 
        
     background-color: #d8d8c0 ;
     width: 45vw;
-    height: 100vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
     margin-left: 25%;
@@ -163,7 +177,7 @@ form{
     padding: 15px;
     border: none;
     border-radius: 15px;
-    width: 40%;
+    width: 60%;
     
     margin-left: 22%;
     

@@ -36,7 +36,7 @@ if ($resultado_cpf->num_rows == 0) {
 
     <h1>Saldos</h1>
 
-    <div class="container-saldo">
+    <div class="container-saldo-p">
         <?php 
            $cpf;
            while($cpf = $resultado_cpf->fetch_assoc()) {
@@ -57,7 +57,7 @@ if ($resultado_cpf->num_rows == 0) {
             }
           
         ?>
-                        <a href="../view/home.html"> Voltar a Tela Inicial</a>
+                        <a href="../view/home.html" class="a-saldo"> Voltar a Tela Inicial</a>
     </div>
     
 </body>

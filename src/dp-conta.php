@@ -26,7 +26,7 @@ while ($dados = $registro_conta->fetch_assoc()) {
 
         echo"<script>
      alert('Deposito realisado com sucesso!');
-     window.location.href ='../view/deposito-conta.html';
+     window.location.href ='../view/home.html';
 
      </script>";
         
