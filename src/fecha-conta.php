@@ -36,7 +36,7 @@ while ($dados = $reg->fetch_assoc()) {
 
         echo"<script>
             alert('Conta fechada com sucesso!');
-            window.location.href ='../view/fecha-conta.html';
+            window.location.href ='../view/home.html';
         
              </script>";
 

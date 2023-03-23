@@ -47,14 +47,16 @@ if ($resultado_cpf->num_rows == 0) {
 
                         
                 if ($cpf_conta==$cpf['cpf'] ) {
-                    echo"<div>  <h4>Saldo de Conta Poupança:</h4>   <p>  $cpf_poupanca </p></div>";
+                    echo"<div>  <h4>Saldo de Conta Poupança:</h4>  <p>  $cpf_poupanca </p></div>";
                     echo"<div> <h5>Saldo de Conta Corrente:</h5> <p>  $cpf_corrente </p></div>";
                     
                 }else{
             
                     echo"cpf errado";
                 }
+                break;
             }
+
           
         ?>
                         <a href="../view/home.html" class="a-saldo"> Voltar a Tela Inicial</a>

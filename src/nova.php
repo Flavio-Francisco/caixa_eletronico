@@ -11,19 +11,10 @@ $cpf = $_POST['cpf'];
 $contaP =0;
 $contaC =0;
 
-if ($senha == "" || $usuario == ""|| $nome == "" || $cpf == "" )  {
+if ($senha != $senhac && $senha > 0 && $senha == "" || $usuario == ""|| $nome == "" || $cpf == "" )  {
       echo" <script>
 
-      alert('Todos os Campos tem que ser Preenchidos!');
-            window.location.href ='../view/nova-conta.html';
-      
-      </script>";
-}
-
-if ($senha != $senhac && $senha > 0)  {
-      echo" <script>
-
-      alert('Senhas Não Conferem');
+      alert('Dados não com ferem');
             window.location.href ='../view/nova-conta.html';
       
       </script>";
@@ -35,7 +26,7 @@ if (mysqli_query($conn, $sql)) {
       echo" <script>
 
       alert('Usuário Criado Com Suceeso');
-            window.location.href ='../view/nova-conta.html';
+            window.location.href ='../index.html';
       
       </script>";
       

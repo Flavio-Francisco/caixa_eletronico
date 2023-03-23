@@ -172,12 +172,12 @@ form{
 .submit-nova{
     font-style: italic;
     font-size:1em;
-    background-color:  #d8d8c0;
-    color: #1693a5;
+    background-color: #1693a5;
+    color: #f0f0d8;
     padding: 15px;
     border: none;
     border-radius: 15px;
-    width: 60%;
+    width: 40%;
     
     margin-left: 22%;
     
